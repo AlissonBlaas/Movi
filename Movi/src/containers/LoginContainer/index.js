@@ -50,7 +50,7 @@ export class LoginCTN extends React.Component {
           title="LOGAR"
           color={[Colors.CRL_GREEN, Colors.CRL_GREEN]}
           selectedColor={Colors.CLR_TEXT_GRAY}
-          onPress={onSubmit}
+          onPress={() => navigation.navigate('maps') }
         />
         
       </View>

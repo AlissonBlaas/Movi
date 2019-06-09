@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Image, ImageBackground } from 'react-native';
 import styles, {file_logo, background} from './Introstyle'
-import ImgFlex from '../constants/ImgFlex'
 import GFButton from '../components/GFButton'
 import Colors from '../constants/Colors'
 
